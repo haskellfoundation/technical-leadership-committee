@@ -13,7 +13,7 @@ The current team consists of:
 
 You can contact us through either:
 
-* the [issue tracker](https://github.com/haskellfoundation/technical-leadership-committee/issues) here
+* the [issue tracker](https://github.com/haskellfoundation/technical-leadership-committee/issues) or the [discussion space](https://github.com/haskellfoundation/technical-leadership-committee/discussions) here
 * the [Google group](https://groups.google.com/u/1/a/haskell.foundation/g/technical-leadership) [technical-leadership@haskell.foundation](mailto:technical-leadership@haskell.foundation)
 
 For sensitive matters you can also contact the chair privately [via email](mailto:hasufell@posteo.de).
