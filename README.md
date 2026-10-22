@@ -4,10 +4,10 @@ This is the space for the technical [leadership committee of the Haskell Foundat
 
 The current team consists of:
 
-- Julian Ospald (@hasufell) - chair
-- Simon Marlow (@simonmar) - board liasion
-- Joshua Miller (@velveteer)
-- Rodrigo Mesquita (@alt-romes)
+- Julian Ospald ([@hasufell](https://github.com/hasufell)) - chair
+- Simon Marlow ([@simonmar](https://github.com/simonmar)) - board liasion
+- Joshua Miller ([@velveteer](https://github.com/velveteer))
+- Rodrigo Mesquita ([@alt-romes](https://github.com/alt-romes))
 
 ## Contact
 
