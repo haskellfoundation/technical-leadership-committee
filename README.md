@@ -15,6 +15,7 @@ You can contact us through either:
 
 * the [issue tracker](https://github.com/haskellfoundation/technical-leadership-committee/issues) or the [discussion space](https://github.com/haskellfoundation/technical-leadership-committee/discussions) here
 * the [Google group](https://groups.google.com/u/1/a/haskell.foundation/g/technical-leadership) [technical-leadership@haskell.foundation](mailto:technical-leadership@haskell.foundation)
+* our [Matrix channel](https://matrix.to/#/#hf-tlc:matrix.org)
 
 For sensitive matters you can also contact the chair privately [via email](mailto:hasufell@posteo.de).
 
