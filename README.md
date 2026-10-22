@@ -21,7 +21,7 @@ For sensitive matters you can also contact the chair privately [via email](mailt
 
 ## Motivation and purpose
 
-The initiative to form this committee comes from the Haskell Board itself. The [technical leadership document](https://gitlab.haskell.org/hf/meta/-/blob/main/committees/technical-leadership.md?ref_type=heads)
+The initiative to form this committee comes from the Haskell Foundation Board itself. The [technical leadership document](https://gitlab.haskell.org/hf/meta/-/blob/main/committees/technical-leadership.md?ref_type=heads)
 describes the structure and bylaws.
 
 In short, our mission is to:
