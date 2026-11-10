@@ -30,6 +30,11 @@ In short, our mission is to:
 - spearhead initiatives to drive Haskell forward and provide guidance on technical directions
 - decide on funding of technical proposals
 
+## Vision
+
+Our Vision is described [here](VISION.md). It is a joint document that emerged
+from the [individual members manifesto's](./manifestos/).
+
 ## Community proposal process
 
 While this committee is a proactive force that actively looks for passionate Haskellers who can implement
