@@ -1,8 +1,8 @@
 # The TLC's shared vision
 
-We believe that Haskell is the best programming language out there and that it
-can provide unique value to everyone, because it sits at an interesting
-intersection between craftsmanship and radical automation:
+We believe that Haskell is awesome and that it can provide unique value to
+everyone, because it sits at an interesting intersection between human
+craftsmanship and machine automation:
 
 * It is good for humans to write by hand: Type safety, powerful abstractions
   and referential transparency have enabled engineers all over the world
@@ -17,72 +17,116 @@ There may be better languages for formal verification or for vibecoding, but
 there's no better language for "human in the loop". Haskell is where we
 maintain control of our work, build institutional knowledge and ship responsibly.
 
-## Motivation
+We're driven to improve Haskell for everyone:
 
-What drives the TLC is our motivation to improve Haskell for:
+1. Beginners: because the newcomer experience must be our benchmark
+2. Experts: let us together fix long-standing pain-points of the Haskell ecosystem
+3. Industry: help us understand your corporate needs and scaling issues
 
-1. Beginners: improving the newcomer experience, because it is *the*
-   UX benchmark
-2. Experts: fixing long-standing pain-points of the Haskell ecosystem
-3. Industry: understanding corporate needs and scaling issues
+## A vision of productivity
 
-## Priorities
+Imagine Haskell had the iteration speed of golang, the debugging capabilities
+of C# and the onboarding experience of rust. And all that while providing
+stronger guarantees and better performance!
 
-While there are many parts of the ecosystem that need love our current
-priorities have crystallized as follows.
+### Iteration speed
 
-### Security
+Modern workflows require fast iteration times: compilation, interactive repl,
+remote dependency caching, CI and test integration. All of this affects both
+human and machine workflows.
 
-We believe that security needs a new and more focused approach and cannot be
-seen as a given. The lack of major incidents is not an indication that our
-libraries, systems and infrastructure are secure.
+While Haskell scales well in terms of code complexity... it doesn't scale well
+in terms of build times. GHC's own CI has turnaround times of 6 hours. We want
+to bring them down to 2.
 
-Supply-chain needs to be trustworthy, security processes need to work seamlessly
-and end user awareness of vulnerabilities and mitigations needs to come
-without effort.
+### Debugging
 
-Haskell needs to provide a strong crypto ecosystem and utilize its language
-to allow better strategies to harden applications (e.g. through Information Flow Control
-and other techniques).
+Instead of helplessly dumping logs and binaries into LLM chats, we envision
+deterministic tools that allow precise and ergonomic enquiries:
 
-### Tooling and productivity
+* live step-through debugging
+* actually useful stack traces
+* beautiful performance analysis reports
 
-While the community has made great efforts with tooling in the past few years,
-there's still major gaps we need to tackle.
+And all of that in your editor/IDE.
 
-1. Faster iteration: whether it's compilation speed, improving GHCi or implementing
-   better caching for build tools... all of these affect both human and machine
-   workflows. Faster CI, faster contribution, faster turnaround times.
-2. Debugging: an often neglected art, because it's less fun. The ecosystem
-   needs to catch up, polish the tools we have, support new tools and
-   write documentation and tutorials that make this less of a frustrating
-   experience.
-3. Onboarding: most Haskell users are beginners! From installation to
-   tooling interaction... everything should fit together nicely and not be
-   a jigsaw puzzle.
+Debugging must be fun again, without littering `Debug.Trace.trace` all over
+your codebase.
 
-We are further committed to unix principles, which allows tools to be extensible
-and empowers the user to realize complex and sometimes unforeseen workflows,
-without having to rewrite large parts of the ecosystem.
+Documentation will assist newcomers with these tools and explain all caveats
+of laziness and GHC.
 
-These things are important as frustration tolerance is in decline (and maybe
-rightly so!) and users are more quickly to abandon languages, ecosystems and
-tools if they do not accommodate their needs.
+Imagine a debugging experience so smooth, that you don't even bother
+prompting AI about it!
 
-### Stability
+### Onboarding and DevX
 
-Moving fast isn't the only thing that matters, however. We also want to invest
-in ways to make the Haskell experience pleasant for users, who maintain
-large complex systems, who have to upgrade the compiler every year, catch up
-with library updates and have deeply ingrained workflows that our tooling
-must not disrupt.
+In these times of low frustration tolerance, we are going to build the best
+onboarding experience in the programming language ecosystem, because it is
+the ultimate benchmark for developer experience as a whole.
 
-This may entail allowing users to opt-out of breaking changes, maintain longer
-backport windows for GHC, coordinate ecosystem upgrades better (which often has
-been pushed to stackage maintainers) and generally make the ecosystem more
-predictable for corporate users.
+* installation so quick that you're wondering whether the installer even worked
+* documentation so comprehensive and accessible that you never get stuck
+* tooling so intuitive that you don't have to constantly ask for support
 
-## A flourishing open source ecosystem
+This can only be done if we commit to unix principles, which we summarize as:
+
+- write programs that do one thing and do it well
+- write programs that work together
+- write programs that are extensible
+
+Documentation should be a joy to read, written by humans, for humans.
+
+## A vision of a secure and trustworthy ecosystem
+
+Security and trust don't get established by accident. Once trust is lost,
+it's often irrecoverably lost.
+
+To protect our community assets and reputation, we need to:
+
+- have the fastest incident response time among language ecosystems
+- have penetration testers go through our infrastructure regularly
+- make end users aware of vulnerabilities and mitigations
+- build a robust crypto library stack
+- harden our supply chain
+
+We should further support attempts to utilize or extend the strengths of the
+Haskell language to boost practical applications of secure design and architecture,
+such as [Information Flow Control](https://hackage.haskell.org/package/lio) or
+[Mandatory Access Control](https://hackage.haskell.org/package/mac).
+We're also monitoring the efforts of [dependent types](https://ghc.serokell.io/dh)
+and [liquidhaskell](https://ucsd-progsys.github.io/liquidhaskell/).
+
+## A vision of stability
+
+What if we could compile Haskell software that's 10 years old with the latest
+GHC, without any source code changes?
+
+While this might seem like an impossible goal to achieve... embarking on that
+journey is going to get us closer to a robust, stable and predictable ecosystem
+anyway.
+
+The questions we need to answer along the way are:
+
+- how can users opt out of breaking changes?
+- how long can we keep support windows open?
+- how can we make the upgrade experience better?
+
+Not only requires this investment in GHC and core tooling, but also potentially
+support community efforts to maintain stable package sets or coordinate ecosystem
+upgrades, make cabal more ergonomic for complex use cases, spearhead and
+support stability policies and gather data about what parts of the ecosystem
+cause churn.
+
+We want Haskell to not only be a choice for fast moving startups, but also for
+conservative and risk-averse companies that do not want their workflows or
+software stacks disrupted. Stability will benefit both of these types users,
+reduce cost and friction and build a reputation for Haskell as a modern
+language with a predictable ecosystem.
+
+It's time for us to move out of the PoC stage.
+
+## A vision of a flourishing open source ecosystem
 
 All of the above is an attempt to support the Haskell open source ecosystem
 that we love. We are committed to open source, its values and the social
@@ -92,13 +136,7 @@ We want to enable all the maintainers and volunteers who keep this ecosystem
 alive, many of them unknown, doing their part on a Saturday evening
 at the other end of the world.
 
-## We need your help
-
-In these turbulent times, we ask you to help us.
-
-Send us:
-
-* ideas
-* money :)
-* feedback
+We code because we love to ship products. But we also code, because we want
+to socialize, meet people and have a good time. We're committed to both of
+these values.
 
