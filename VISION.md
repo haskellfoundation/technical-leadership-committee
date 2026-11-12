@@ -19,9 +19,9 @@ maintain control of our work, build institutional knowledge and ship responsibly
 
 We're driven to improve Haskell for everyone:
 
-1. Beginners: because the newcomer experience must be our benchmark
-2. Experts: let us together fix long-standing pain-points of the Haskell ecosystem
-3. Industry: help us understand your corporate needs and scaling issues
+1. Beginners: the onboarding experience must be our benchmark for usability
+2. Experts: enabling advanced workflows and improving productivity
+3. Industry: focussing on stability and scaling
 
 ## A vision of productivity
 
@@ -36,8 +36,8 @@ remote dependency caching, CI and test integration. All of this affects both
 human and machine workflows.
 
 While Haskell scales well in terms of code complexity... it doesn't scale well
-in terms of build times. GHC's own CI has turnaround times of 6 hours. We want
-to bring them down to 2.
+in terms of build times. As an example, GHC's own CI has turnaround times of 6
+hours. We want to bring them down to 2.
 
 ### Debugging and profiling
 
@@ -117,12 +117,10 @@ support stability policies and gather data about what parts of the ecosystem
 cause churn.
 
 We want Haskell to not only be a choice for fast moving startups, but also for
-conservative and risk-averse companies that do not want their workflows or
-software stacks disrupted. Stability will benefit both of these types users,
+large or conservative companies that do not want their workflows or
+software stacks disrupted. Stability will benefit both of these types of users,
 reduce cost and friction and build a reputation for Haskell as a modern
 language with a predictable ecosystem.
-
-It's time for us to move out of the PoC stage.
 
 ## A vision of a flourishing open source ecosystem
 
