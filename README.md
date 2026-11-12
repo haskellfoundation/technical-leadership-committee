@@ -49,7 +49,7 @@ A proposal does not need to follow a specific structure or template, but should 
 outline a concrete and achievable goal and be specific about the required funding and timeline.
 
 Be aware that we will welcome community feedback, alternative proposals and competition for a period
-of at least 2 weeks. This is vital to ensure fairness and transparency. If you do not want to disclose parts of your
+of at least 2 weeks from the submission of a proposal. This is vital to ensure fairness and transparency. If you do not want to disclose parts of your
 detailed design, discuss the idea informally first, outlining goals and scope. We can then
 figure out if there are competing interests or offers in the community.
 
