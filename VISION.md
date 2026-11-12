@@ -7,7 +7,7 @@ craftsmanship and machine automation:
 * It is good for humans to write by hand: Type safety, powerful abstractions
   and referential transparency have enabled engineers all over the world
   in startups and big tech to deliver and maintain complex systems.
-* It is good for responsible AI workflows: review is the new bottleneck in
+* It is good for responsible AI workflows: review is a significant bottleneck in
   modern AI-workflows and Haskell's strengths heavily favor the reviewer.
   Additionally, the ability to quickly design eDSLs and express constraints
   where it matters allows to set up strong guardrails for code generation,
@@ -39,7 +39,7 @@ While Haskell scales well in terms of code complexity... it doesn't scale well
 in terms of build times. GHC's own CI has turnaround times of 6 hours. We want
 to bring them down to 2.
 
-### Debugging
+### Debugging and profiling
 
 Instead of helplessly dumping logs and binaries into LLM chats, we envision
 deterministic tools that allow precise and ergonomic enquiries:
@@ -48,16 +48,14 @@ deterministic tools that allow precise and ergonomic enquiries:
 * actually useful stack traces
 * beautiful performance analysis reports
 
-And all of that in your editor/IDE.
+And all of that in your editor/IDE as well as through powerful CLI and scripting interfaces, the latter enabling power users as well as LLM-driven debugging (natively, without requiring any custom adapters like MCP).
 
 Debugging must be fun again, without littering `Debug.Trace.trace` all over
 your codebase.
 
-Documentation will assist newcomers with these tools and explain all caveats
-of laziness and GHC.
+Documentation and interactive exploration will assist newcomers in understanding all caveats
+of laziness and GHC and should clearly explain how to leverage these tools.
 
-Imagine a debugging experience so smooth, that you don't even bother
-prompting AI about it!
 
 ### Onboarding and DevX
 
@@ -87,7 +85,7 @@ To protect our community assets and reputation, we need to:
 - have the fastest incident response time among language ecosystems
 - have penetration testers go through our infrastructure regularly
 - make end users aware of vulnerabilities and mitigations
-- build a robust crypto library stack
+- build a robust cryptography library stack
 - harden our supply chain
 
 We should further support attempts to utilize or extend the strengths of the
