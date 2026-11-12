@@ -4,7 +4,7 @@ Vision Manifesto
 I've been thinking about what I consider to be a good project, and especially
 what makes a project worth spending money when the goal is to improve the language/ecosystem/adoption.
 
-I have found there are 2 axis which are fundamental to my reasoning about this for all projects:
+I have found there are 2 axes which are fundamental to my reasoning about this for all projects:
 
 - Piercing relevance (as opposed to superficiality)
 - Composability (as opposed to developed in isolation without regard for existing tools)
@@ -62,7 +62,7 @@ Something along those lines...
 ## Examples
 
 I think both of these are hard to define objectively, but one thing we can do
-with two axis is plot examples!
+with two axes is plot examples!
 
 Here is my subjective view of recent projects. Let me know if you'd like to me
 to expand on the placement of any of these.
@@ -74,10 +74,11 @@ WaterfallCAD, apecs-things, ...)
 
 ## Conclusion
 
-I think these are two very important axis in which we should consider each
-project to fund. I am also aware they are weird axis in that sometimes they
-overlap, and sometimes they are not sufficient to cover why a project is still
-worth funding.
+I think these are two very important axes in which we should consider each
+project to fund. There are other pragmatic axes such as "Cost" or "Effort",
+which are also relevant. I am also aware that these are weird axes in that
+sometimes they overlap, and sometimes they are not sufficient to cover why a
+project is still worth funding.
 
 It is an imperfect set of criteria. They mostly try to reflect what goes often
 into my decision process -- not what should be decision process.
