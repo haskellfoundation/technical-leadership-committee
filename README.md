@@ -37,15 +37,21 @@ from the [individual members manifesto's](./manifestos/).
 
 ## Community proposal process
 
-While this committee is a proactive force that actively looks for passionate Haskellers who can implement
-our agenda, members of the community can also appeal themselves and ask for funding directly. They can do
-so through whichever [channel](#contact) they prefer.
+Proposals that ask for funding are to be created on the [issue tracker](https://github.com/haskellfoundation/technical-leadership-committee/issues).
+
+Before writing a proposal, consider discussing the idea informally or asking the TLC
+for a non-binding vote of interest.
+
+Every proposal requires a "sponsor" from the committee who will be the primary contact during the
+discussion and voting procedure and implementation.
 
 A proposal does not need to follow a specific structure or template, but should convey a clear motivation,
 outline a concrete and achievable goal and be specific about the required funding and timeline.
 
-Every proposal requires a "sponsor" from the committee who will be the primary contact during the process
-and implementation.
+Be aware that we will welcome community feedback, alternative proposals and competition for a period
+of at least 2 weeks from the submission of a proposal. This is vital to ensure fairness and transparency. If you do not want to disclose parts of your
+detailed design, discuss the idea informally first, outlining goals and scope. We can then
+figure out if there are competing interests or offers in the community.
 
 ## Ideas, discussions, referrals
 
